@@ -9,7 +9,7 @@ A base16 theme for the [sioyek](https://github.com/ahrm/sioyek) pdf reader.
 
 # Installation
 
-Add copy the config file to `$XDG_CONFIG_HOME/sioyek/prefs_user.config`.
+GIt clone and copy the colorscheme's config file to `$XDG_CONFIG_HOME/sioyek/prefs_user.config`.
 
 ```bash
 git clone git@github.com:loiccoyle/base16-sioyek.git
