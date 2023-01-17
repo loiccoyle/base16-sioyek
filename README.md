@@ -3,7 +3,7 @@
 > See the [Base16 repository](https://github.com/chriskempson/base16) for more information.  
 > This theme was built with [Base16 Builder Go](https://github.com/tinted-theming/base16-builder-go).
 
-A base16 theme for the [sioyek](https://github.com/ahrm/sioyek) pdf reader.
+Base16 colorschemes for the [sioyek](https://github.com/ahrm/sioyek) pdf reader.
 
 <div align="center"><img width=600 src="./assets/screenshot.png"><p>Fig 1: Soiyek with gruvbox hard and custom colors enabled</p></div>
 
