@@ -5,7 +5,7 @@
 
 Base16 colorschemes for the [sioyek](https://github.com/ahrm/sioyek) pdf reader.
 
-<div align="center"><img width=600 src="./assets/screenshot.png"><p>Figure 1: Soiyek with gruvbox hard and custom colors enabled</p></div>
+<div align="center"><img width=600 src="./assets/screenshot.png"><p>Figure 1: Sioyek with gruvbox hard and custom colors enabled</p></div>
 
 # Installation
 
