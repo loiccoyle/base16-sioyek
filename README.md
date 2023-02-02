@@ -1,6 +1,6 @@
 # Base16-sioyek
 
-> See the [Base16 repository](https://github.com/chriskempson/base16) for more information.  
+> See the [Base16 repository](https://github.com/tinted-theming/home) for more information.
 > This theme was built with [Base16 Builder Go](https://github.com/tinted-theming/base16-builder-go).
 
 Base16 colorschemes for the [sioyek](https://github.com/ahrm/sioyek) pdf reader.
