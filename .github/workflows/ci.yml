@@ -1,6 +1,8 @@
 name: CI
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * 0" # https://crontab.guru/every-week
@@ -9,15 +11,15 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: github.event.commits[0].author.name != 'github-actions[bot]'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
       - name: Update schemes
         uses: tinted-theming/base16-builder-go@latest
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ci: Build colors"
           branch: ${{ github.head_ref }}
