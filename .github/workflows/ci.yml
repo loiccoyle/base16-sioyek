@@ -16,8 +16,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
-      - name: Update schemes
-        uses: tinted-theming/base16-builder-go@latest
+      - name: "Update schemes"
+        uses: "tinted-theming/tinted-builder-rust@latest"
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
