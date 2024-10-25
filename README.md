@@ -15,3 +15,9 @@ Clone and copy the color scheme's config file to `$XDG_CONFIG_HOME/sioyek/prefs_
 git clone git@github.com:loiccoyle/base16-sioyek.git
 cp base16-sioyek/colors/base16-gruvbox-dark-hard.config ~/.config/sioyek/prefs_user.config
 ```
+
+To include the colors while keeping your own `prefs_user.config` file, save the them file to different file and source it. For example, to `~/.config/sioyek/colors.config` and add the following to your `prefs_user.config` file:
+
+```config
+source ~/.config/sioyek/colors.config
+```
